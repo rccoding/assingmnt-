@@ -1,0 +1,10 @@
+export const HOME = "/";
+export const ADMIN_PAGE = "/admin";
+export const PATIENT_PAGE = "/patient";
+export const DOCTOR_PAGE = "/doctor";
+export const CREATE_APPOITMENT = "/appoitments";
+export const CREATE_PATIENT = "/patients";
+export const RESTRICTED_URLS=[CREATE_APPOITMENT]
+export const RESTRICTED_URLS_ADMIN = [CREATE_APPOITMENT];
+export const RESTRICTED_URLS_PATIENT = [CREATE_PATIENT];
+export const RESTRICTED_URLS_DOCTOR = [CREATE_PATIENT];
